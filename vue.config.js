@@ -1,4 +1,15 @@
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
-  transpileDependencies: true
-})
+module.exports = {
+  // //5个
+  // entry: '',
+  // outPut: {
+
+  // },
+  // module: {
+  //   rules:[]
+  // },
+  // plugins: [],
+  // mode:''
+
+  //禁用eslint
+lintOnSave:false
+}
